@@ -1,5 +1,3 @@
-import unittest
-
 # Create a function get_primes(n), which takes in a number n and returns a list of prime numbers from 1 to n, inclusive of n.
 # precondition: n >= 1
 def get_primes(n):
