@@ -21,7 +21,7 @@ def test_function(func, expected_output, *input):
 print("Testing get_primes")
 print("-------------------")
 test_function(get_primes, [], 1)
-test_function(get_primes, [2], 2, 5)
+test_function(get_primes, [2], 2)
 test_function(get_primes, [2, 3], 3)
 test_function(get_primes, [2, 3, 5], 5)
 test_function(get_primes, [2, 3, 5, 7], 7)
