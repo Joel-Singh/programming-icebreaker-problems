@@ -1,3 +1,5 @@
+from util.testing import test_function
+
 # Create a function get_primes(n), which takes in a number n and returns a list of prime numbers from 1 to n, inclusive of n. 1 is not prime.
 # precondition: n >= 1
 def get_primes(n):
@@ -12,19 +14,6 @@ def get_primes(n):
             primes.append(potential_prime)
     return primes
 
-
-
-def test_function(func, expected_output, *input):
-    actual_output = func(*input)
-    print(func.__name__ + '(', *input, ')')
-    if actual_output == expected_output:
-        print("Passed")
-        print()
-    else:
-        print("FAILED")
-        print("Expected output: ", expected_output)
-        print("Actual output:   ", actual_output)
-        print()
 
 print("Testing get_primes")
 print("-------------------")
