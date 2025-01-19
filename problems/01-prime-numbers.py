@@ -1,6 +1,16 @@
 # Create a function get_primes(n), which takes in a number n and returns a list of prime numbers from 1 to n, inclusive of n. 1 is not prime.
 # precondition: n >= 1
 def get_primes(n):
+    primes = []
+    for potential_prime in range(2, n+1):
+        is_prime = True
+        for divisor in range(2, potential_prime):
+            if (potential_prime%divisor) == 0:
+                is_prime = False
+                break;
+        if is_prime:
+            primes.append(potential_prime)
+    return primes
 
 
 
