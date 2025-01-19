@@ -1,8 +1,15 @@
 from util.testing import test_function
 
-# Create a function get_primes(n), which takes in a number n and returns a list of prime numbers from 1 to n, inclusive of n. 1 is not prime.
-# precondition: n >= 1
 def get_primes(n):
+    """
+    Returns a list of prime numbers from 1 to n, inclusive of n. 1 is not prime
+
+    Args:
+        n: The number to find primes up to, will be >= 1
+
+    Returns:
+        A list of prime numbers from 1 to n
+    """
     primes = []
     for potential_prime in range(2, n+1):
         is_prime = True
