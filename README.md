@@ -1,9 +1,10 @@
 # programming-contest-for-club
-Doing a python programming contest at Denison!
+A bank of problems for icebreakers or programming contest
 
 There are problems in the problems/ directory. Each problem is formatted like so:
 
-```from util.testing import test_function
+```
+from util.testing import test_function
 
 def get_primes(n):
     """
@@ -38,8 +39,9 @@ test_function(get_primes, [2, 3, 5, 7, 11], 11)
 test_function(get_primes, [2, 3, 5, 7, 11], 12)
 test_function(get_primes, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73], 73)
 test_function(get_primes, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73], 78)
-test_function(get_primes, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107], 107)```
-
+test_function(get_primes, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107], 107)
+```
 
 - Each file imports test_function, which prints whether or not the test passed, taking in expected output.
 - The solution will obviously not be there for the final contest
+- The intention is for members to be constantly running tests as incrementally work towards a final solution
