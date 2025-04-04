@@ -36,5 +36,33 @@ test_function(get_primes, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 4
 ```
 
 - Each file imports test_function, which prints whether or not the test passed, taking in expected output.
-- The solution will obviously not be there for the final contest
-- The intention is for members to be constantly running tests as incrementally work towards a final solution
+- The intention is for members to be constantly running tests as they incrementally work towards a final solution
+
+Example output after running the file would look like:
+```
+get_primes( 1 )
+Passed
+
+get_primes( 2 )
+FAILED
+Expected output: [2]
+Actual output:    []
+
+get_primes( 3 )
+FAILED
+Expected output: [2, 3]
+Actual output:    [2]
+
+get_primes( 5 )
+FAILED
+Expected output: [2, 3, 5]
+Actual output:    [2, 3]
+
+get_primes( 7 )
+FAILED
+Expected output: [2, 3, 5, 7]
+Actual output:    [2, 3, 5]
+
+get_primes( 8 )
+Passed
+```
