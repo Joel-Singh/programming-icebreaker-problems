@@ -1,5 +1,5 @@
-# programming-contest-for-club
-A bank of problems for icebreakers or programming contest
+# programming-icebreaker-problems
+A bank of problems for icebreakers during meetings at Denison
 
 There are problems in the problems/ directory and solutions in the solutions branch. Each problem is formatted like so:
 
