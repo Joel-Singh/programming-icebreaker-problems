@@ -1,7 +1,7 @@
 # programming-contest-for-club
 A bank of problems for icebreakers or programming contest
 
-There are problems in the problems/ directory. Each problem is formatted like so:
+There are problems in the problems/ directory and solutions in the solutions branch. Each problem is formatted like so:
 
 ```python
 from util.testing import test_function
