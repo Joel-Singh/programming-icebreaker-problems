@@ -1,7 +1,7 @@
 # programming-icebreaker-problems
 A bank of problems for icebreakers during meetings at Denison
 
-There are problems in the problems/ directory and solutions in the solutions branch. Each problem is formatted like so:
+The current problems for the meeting are on the main branch. All other problems and solutions are on all-solutions-and-problems.
 
 ```python
 from util.testing import test_function
