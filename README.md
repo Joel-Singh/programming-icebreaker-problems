@@ -3,7 +3,7 @@ A bank of problems for icebreakers or programming contest
 
 There are problems in the problems/ directory. Each problem is formatted like so:
 
-```
+```python
 from util.testing import test_function
 
 def get_primes(n):
@@ -17,14 +17,7 @@ def get_primes(n):
         A list of prime numbers from 1 to n
     """
     primes = []
-    for potential_prime in range(2, n+1):
-        is_prime = True
-        for divisor in range(2, potential_prime):
-            if (potential_prime%divisor) == 0:
-                is_prime = False
-                break;
-        if is_prime:
-            primes.append(potential_prime)
+    # Calculate and append primes to list
     return primes
 
 print("Testing get_primes")
