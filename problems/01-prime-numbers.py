@@ -10,16 +10,7 @@ def get_primes(n):
     Returns:
         A list of prime numbers from 1 to n
     """
-    primes = []
-    for potential_prime in range(2, n+1):
-        is_prime = True
-        for divisor in range(2, potential_prime):
-            if (potential_prime%divisor) == 0:
-                is_prime = False
-                break;
-        if is_prime:
-            primes.append(potential_prime)
-    return primes
+    return []
 
 
 print("Testing get_primes")
